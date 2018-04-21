@@ -1,0 +1,38 @@
+/* multicomplete list css */
+.multiComplete {
+	position:absolute;
+	max-height:200px;
+	width:200px;
+	z-index:10000;
+	overflow-y:auto;
+}
+.multiComplete-list {
+	border:1px solid #f0f0f0;
+	background:#fff;
+	padding:1px;
+	display:none;
+}
+.multiComplete-list-item {
+	padding:4px 10px;
+	cursor:pointer;
+	margin-bottom:1px;
+	display:none;
+}
+.multiComplete-list-item.highlighted{
+	/*background-color:#f0f0f0;*/
+	display:block;
+}
+.multiComplete-list-item.selected{
+	background-color:#f0f0f0;
+}
+.multiComplete-list-caption{
+	padding:4px 5px;
+	font-size:11px;
+	color:#777;
+	margin-bottom:1px;
+}
+.multiComplete-list-empty{
+	padding:4px 10px;
+	color:#f00;
+	margin-bottom:1px;
+}

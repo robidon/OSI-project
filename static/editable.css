@@ -1,0 +1,46 @@
+.ediTableWrap {
+    display:inline-block;
+    position:relative;
+    margin:20px;
+}
+.ediTableAdd,.ediTableSub {
+    background:#f0f0f0;
+	border:1px solid #fff;
+    position:absolute;
+    width:20px; height:20px;
+    text-align:center;
+    line-height:20px;
+    cursor:pointer;
+}
+.ediTableAddLeft {
+    left:-20px;
+}
+.ediTableAddRight {
+    right:-20px;
+}
+.ediTableSub {
+    display:none;
+    margin:-20px 0 0 -10px;
+}
+.ediTable {
+    background:#f0f0f0;
+    padding:2px;
+    width:100px;
+}
+.ediRow {
+    margin:0 0 0 1px;
+    padding:0;
+}
+.ediCellWrap{
+    padding:1px 3px;
+    background:#fff;
+    min-width:50px;
+	min-height:20px;
+    margin:0;
+}
+.ediCell {
+	white-space: nowrap;
+}
+.duplicateKey {
+    background-color:#f00;
+}

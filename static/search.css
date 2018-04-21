@@ -1,0 +1,17 @@
+.catalogue {
+	padding:4px;
+	background:#fff;
+	border:1px solid #c9c9c9;
+}
+.catalogue .item > .title{
+	padding:4px 10px;
+	margin:1px;
+	cursor:pointer;
+}
+.catalogue .item:hover > .title{
+	background:#f0f0f0;
+}
+.catalogue .children {
+	margin:3px 10px;
+	display:none;
+}

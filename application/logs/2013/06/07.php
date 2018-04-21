@@ -1,0 +1,15 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2013-06-07 16:34:18 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:34:23 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:34:35 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:34:51 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:34:54 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:34:56 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:34:59 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:35:05 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:35:07 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:35:10 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:35:17 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:35:29 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]
+2013-06-07 16:35:41 --- ERROR: ErrorException [ 1 ]: Call to undefined function mb_strtolower() ~ APPPATH\classes\constructor\dao\node.php [ 354 ]

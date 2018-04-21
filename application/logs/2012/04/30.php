@@ -1,0 +1,17 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2012-04-30 13:50:25 --- ERROR: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\classes\controller\constructor\file.php [ 505 ]
+2012-04-30 13:52:13 --- ERROR: ErrorException [ 8 ]: Undefined variable: node_id ~ APPPATH\classes\constructor\service\base.php [ 17 ]
+2012-04-30 21:54:34 --- ERROR: ErrorException [ 2 ]: Invalid argument supplied for foreach() ~ APPPATH\classes\helper\array.php [ 10 ]
+2012-04-30 22:02:51 --- ERROR: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`to_node_id` IN (2765)' at line 1 [ DELETE FROM `c_nodes_connections` WHERE `file_uid` = 130 AND `id` IN (2765)`to_node_id` IN (2765) ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 22:03:44 --- ERROR: Database_Exception [ 1054 ]: Unknown column 'file_uid' in 'where clause' [ DELETE FROM `c_layers_nodes` WHERE `file_uid` = 130 AND `node_id` IN (2764) ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 22:50:17 --- ERROR: Database_Exception [ 1364 ]: Field 'file_uid' doesn't have a default value [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('33', '2559') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 22:50:21 --- ERROR: Database_Exception [ 1364 ]: Field 'file_uid' doesn't have a default value [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('33', '2559') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 22:50:23 --- ERROR: Database_Exception [ 1364 ]: Field 'file_uid' doesn't have a default value [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('33', '2559') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 22:50:25 --- ERROR: Database_Exception [ 1364 ]: Field 'file_uid' doesn't have a default value [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('33', '2559') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 22:50:26 --- ERROR: Database_Exception [ 1364 ]: Field 'file_uid' doesn't have a default value [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('33', '2559') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 22:50:31 --- ERROR: Database_Exception [ 1364 ]: Field 'file_uid' doesn't have a default value [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('33', '2559') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 22:50:34 --- ERROR: Database_Exception [ 1364 ]: Field 'file_uid' doesn't have a default value [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('33', '2559') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 22:50:35 --- ERROR: Database_Exception [ 1364 ]: Field 'file_uid' doesn't have a default value [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('33', '2559') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 22:52:33 --- ERROR: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 [ DELETE FROM `c_nodes_connections` WHERE  ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-04-30 23:00:35 --- ERROR: ErrorException [ 8 ]: Undefined variable: conns ~ APPPATH\classes\controller\constructor\file.php [ 520 ]

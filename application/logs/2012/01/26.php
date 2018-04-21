@@ -1,0 +1,14 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2012-01-26 23:19:45 --- ERROR: ErrorException [ 4 ]: syntax error, unexpected T_VARIABLE ~ APPPATH\classes\constructor\dao\file.php [ 579 ]
+2012-01-26 23:20:34 --- ERROR: ErrorException [ 1 ]: Maximum execution time of 30 seconds exceeded ~ MODPATH\database\classes\kohana\database\mysql.php [ 171 ]
+2012-01-26 23:26:13 --- ERROR: ErrorException [ 4096 ]: Object of class Constructor_Dao_Node could not be converted to string ~ MODPATH\database\classes\kohana\database.php [ 442 ]
+2012-01-26 23:29:25 --- ERROR: Database_Exception [ 1366 ]: Incorrect integer value: 'undefined' for column 'node_id' at row 1 [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('29', 'undefined') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-26 23:45:58 --- ERROR: Database_Exception [ 1366 ]: Incorrect integer value: 'undefined' for column 'node_id' at row 1 [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('32', 'undefined') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-26 23:46:05 --- ERROR: Database_Exception [ 1366 ]: Incorrect integer value: 'undefined' for column 'node_id' at row 1 [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('32', 'undefined') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-26 23:46:07 --- ERROR: Database_Exception [ 1366 ]: Incorrect integer value: 'undefined' for column 'node_id' at row 1 [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('32', 'undefined') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-26 23:46:10 --- ERROR: Database_Exception [ 1366 ]: Incorrect integer value: 'undefined' for column 'node_id' at row 1 [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('32', 'undefined') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-26 23:46:28 --- ERROR: Database_Exception [ 1062 ]: Duplicate entry '31-2835' for key 'PRIMARY' [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('31', '2835') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-26 23:46:34 --- ERROR: Database_Exception [ 1062 ]: Duplicate entry '31-2835' for key 'PRIMARY' [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('31', '2835') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-26 23:47:13 --- ERROR: Database_Exception [ 1062 ]: Duplicate entry '31-2835' for key 'PRIMARY' [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('31', '2835') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-26 23:48:36 --- ERROR: Database_Exception [ 1062 ]: Duplicate entry '31-2835' for key 'PRIMARY' [ INSERT INTO `c_layers_nodes` (`layer_id`, `node_id`) VALUES ('31', '2835') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]

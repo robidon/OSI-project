@@ -1,0 +1,51 @@
+.histogramV {
+	padding:0;margin:0;
+	border:none;
+	background:none;
+	font-size:11px;
+	vertical-align:none;
+}
+.histogramV li {
+	display:block;
+	background:#f9f9f9;
+	position:relative;
+	height:24px;
+	margin-bottom:2px;
+}
+.histogramV .label {
+	position:relative;
+	vertical-align:middle;
+	height:24px;margin-bottom:-24px;
+	width:33%;
+	line-height:24px;
+	text-align:right;
+}
+.histogramV .bar {
+	position:relative;
+	height:24px;margin-bottom:-24px;
+	width:65%;
+	left:35%;
+}
+.histogramV .bar .inner {
+	height:22px;
+	position:relative;
+	margin:-1px -1px -24px -2px;
+}
+.histogramV .bar .red {
+	border:1px solid #a00;
+	background:#f33;
+}
+.histogramV .bar .green {
+	border:1px solid #0a0;
+	background:#3f3;
+}
+.histogramV .bar em {
+	position:relative;
+	display:block;
+	height:24px;
+	width:40px;
+	font-style:normal;
+	line-height:24px;
+	margin:0 0 -24px 100%;
+	left:4px;
+}

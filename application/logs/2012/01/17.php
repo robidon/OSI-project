@@ -1,0 +1,8 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2012-01-17 00:39:24 --- ERROR: Database_Exception [ 1366 ]: Incorrect string value: '\xD0\x94\xD0\xBB\xD0\xB8...' for column 'title' at row 1 [ INSERT INTO `c_layers` (`file_uid`, `title`) VALUES ('61', 'Длинное название слоя. интересно, что получится') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-17 00:39:38 --- ERROR: Database_Exception [ 1366 ]: Incorrect string value: '\xD0\x94\xD0\xBB\xD0\xB8...' for column 'title' at row 1 [ INSERT INTO `c_layers` (`file_uid`, `title`) VALUES ('61', 'Длинное название слоя интересно что получится') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-17 00:40:39 --- ERROR: Database_Exception [ 1241 ]: Operand should contain 1 column(s) [ UPDATE `c_layers` SET `title` = 'llong layer name it is interesting what will happen' WHERE `id` = ('3', '1') ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-17 00:41:05 --- ERROR: Database_Exception [ 1366 ]: Incorrect string value: '\xD0\xB2\xD1\x8B\xD0\xB0' for column 'title' at row 1 [ UPDATE `c_layers` SET `title` = 'layer233выа' WHERE `id` = '2' ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-17 00:41:11 --- ERROR: Database_Exception [ 1366 ]: Incorrect string value: '\xD0\xB2\xD0\xB0\xD0\xB2' for column 'title' at row 1 [ UPDATE `c_layers` SET `title` = 'вав' WHERE `id` = '2' ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2012-01-17 00:41:18 --- ERROR: Database_Exception [ 1366 ]: Incorrect string value: '\xD1\x8B\xD0\xB2' for column 'title' at row 1 [ UPDATE `c_layers` SET `title` = 'layer233ыв' WHERE `id` = '2' ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]

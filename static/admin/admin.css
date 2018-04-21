@@ -1,0 +1,54 @@
+.edit_text {
+	position:relative;
+}
+.edit_text.modified {
+	position:relative;
+	color:#f00;
+}
+.edit_text .edit_text_overlay {
+	display:none;
+	opacity:0;
+	position:absolute;
+	top:-5px;
+	left:-5px;
+	border:1px solid #f0f0f0;
+}
+.edit_text .edit_text_tools {
+	display:none;
+	opacity:0;
+	position:absolute;
+	height:30px;
+	top:-35px;
+	left:-5px;
+	background:#f0f0f0;
+	min-width:200px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.edit_text .htmlsource {
+	border:1px solid #ccc;
+	background:#fff;
+	padding:10px;
+}
+.edit .edit_text_overlay, .edit .edit_text_tools {
+	z-index:2;
+}
+.edit_text_tools em {
+	display:block;
+	margin:5px 10px;
+}
+.edit_text_tools ul {
+	margin:0;
+	padding:0;
+}
+.edit_text_tools ul li {
+	float:left;
+	list-style:none;
+	margin:5px 10px;
+	text-decoration:underline;
+	color:#00f;
+	cursor:pointer;
+}
+.highlightedCode {
+    min-height:200px;
+}

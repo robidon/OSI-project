@@ -1,0 +1,16 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2011-11-27 00:13:16 --- ERROR: Database_Exception [ 1264 ]: Out of range value for column 'crc' at row 1 [ UPDATE `tags` SET `crc` = -1605304129 WHERE `id` = '2' ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2011-11-27 00:13:21 --- ERROR: Database_Exception [ 1264 ]: Out of range value for column 'crc' at row 1 [ UPDATE `tags` SET `crc` = -1605304129 WHERE `id` = '2' ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 179 ]
+2011-11-27 00:15:41 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 00:15:44 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 00:50:22 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 01:16:35 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 01:16:36 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 01:16:39 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 01:16:40 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 01:19:41 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 01:19:42 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 01:19:42 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 01:19:42 --- ERROR: ErrorException [ 8 ]: Undefined index: 1 ~ APPPATH\views\index\report.php [ 60 ]
+2011-11-27 23:07:20 --- ERROR: ErrorException [ 8 ]: Undefined variable: readonly ~ APPPATH\views\constructor\file.php [ 23 ]

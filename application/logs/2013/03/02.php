@@ -1,0 +1,18 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2013-03-02 00:49:06 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
+2013-03-02 00:49:06 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
+2013-03-02 00:49:06 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
+2013-03-02 00:49:06 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
+2013-03-02 00:49:06 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
+2013-03-02 00:54:18 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
+2013-03-02 00:54:18 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
+2013-03-02 00:58:39 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
+2013-03-02 00:58:39 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
+2013-03-02 10:26:51 --- ERROR: Database_Exception [ 0 ]:  ~ MODPATH\database\classes\kohana\database\mysql.php [ 67 ]
+2013-03-02 10:26:57 --- ERROR: Database_Exception [ 0 ]:  ~ MODPATH\database\classes\kohana\database\mysql.php [ 67 ]
+2013-03-02 10:27:02 --- ERROR: Database_Exception [ 0 ]:  ~ MODPATH\database\classes\kohana\database\mysql.php [ 67 ]
+2013-03-02 10:27:09 --- ERROR: Database_Exception [ 0 ]:  ~ MODPATH\database\classes\kohana\database\mysql.php [ 67 ]
+2013-03-02 10:27:15 --- ERROR: Database_Exception [ 0 ]:  ~ MODPATH\database\classes\kohana\database\mysql.php [ 67 ]
+2013-03-02 23:42:06 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
+2013-03-02 23:42:06 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\controller\constructor\file.php [ 341 ]
